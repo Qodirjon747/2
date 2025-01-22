@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="./img/Where in the world_.png" alt="">
+            <button class="btn" id="btn">Dark Mode</button>
+        </div>
+    </header>
+    <main>
+        <section class="hero container">
+            <input type="search" placeholder="Search for a country…">
+            <div class="box">
+                <div class="card">  
+                    <img src="./img/1280px-Flag_of_Germany.svg.png" alt="">
+                    <h3>Germany</h3>
+                </div>
+                <div class="card">  
+                    <img src="./img/1280px-Flag_of_Germany.svg (1).png" alt="" style="margin-left: -10px; margin-top: -8px;">
+                    <h3>United States of America</h3>
+                </div>
+                <div class="card">  
+                    <img src="./img/1280px-Flag_of_Germany.svg (2).png" alt="">
+                    <h3>Brazil</h3>
+                </div>
+                <div class="card">  
+                    <img src="./img/1280px-Flag_of_Germany.svg (3).png" alt="">
+                    <h3>Iceland</h3>
+                </div>
+                <div class="card">  
+                    <img src="./img/1280px-Flag_of_Germany.svg (4).png" alt="">
+                    <h3>Afghanistan</h3>
+                </div>
+                <div class="card">  
+                    <img src="./img/1280px-Flag_of_Germany.svg (5).png" alt="">
+                    <h3>Åland Islands</h3>
+                </div>
+                <div class="card">  
+                    <img src="./img/1280px-Flag_of_Germany.svg (6).png" alt="">
+                    <h3>Albania</h3>
+                </div>
+                <div class="card">  
+                    <img src="./img/1280px-Flag_of_Germany.svg (7).png" alt="">
+                    <h3>Algeria</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const body=document.getElementsByTagName("body")[0];
+        const btn=document.getElementById("btn")
+        btn.addEventListener("click",()=>{
+            body.classList.toggle("dark")
+        })
+    </script>
+</body>
+</html>
